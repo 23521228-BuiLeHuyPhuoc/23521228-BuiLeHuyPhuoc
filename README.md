@@ -2,7 +2,7 @@
 
 <!-- Banner với gradient và hiệu ứng waving đẹp hơn -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00BFFF,100:7B2FBE&height=240&section=header&text=Welcome%20to%20my%20profile%20✨&fontSize=40&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Building%20cool%20things%20with%20code%20%26%20networking&descAlignY=58&descSize=18&descColor=aaaaff" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00BFFF,100:7B2FBE&height=240&section=header&text=Welcome%20to%20my%20profile&fontSize=40&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Building%20cool%20things%20with%20code%20%26%20networking&descAlignY=58&descSize=18&descColor=aaaaff" alt="header" />
 </p>
 
 <!-- Profile views counter -->
@@ -13,7 +13,7 @@
 
 <!-- Typing animation giới thiệu -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chào%2C+mình+là+Phước+👋;I+am+learning+coding+%26+networking+💻;Network+Engineer+in+training+🌐;Always+learning%2C+always+growing+🚀;Welcome+to+my+GitHub+profile+✨" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;I+am+learning+coding+%26+networking+%F0%9F%92%BB;Network+Engineer+in+training+%F0%9F%8C%90;Always+learning%2C+always+growing+%F0%9F%9A%80;Welcome+to+my+GitHub+profile+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 ---
@@ -113,7 +113,7 @@ fun_fact: I debug my life like my code 🐛
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=23521228-BuiLeHuyPhuoc&theme=radical&no-frame=true&no-bg=false&margin-w=6&row=1" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=23521228-BuiLeHuyPhuoc&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -149,7 +149,7 @@ fun_fact: I debug my life like my code 🐛
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/github-snake.svg" alt="Snake animation" width="720" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/github-snake-dark.svg" width="720" />
   </picture>
 </p>
 
@@ -179,9 +179,9 @@ fun_fact: I debug my life like my code 🐛
 
 <!-- Footer wave với màu sắc đẹp hơn -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,100:00BFFF&height=130&section=footer&text=Thanks+for+visiting!+⭐&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=fadeIn" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,100:00BFFF&height=130&section=footer&text=Thanks+for+visiting!&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=fadeIn" alt="footer" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=666666&center=true&vCenter=true&width=500&lines=Made+with+❤️+by+Phuoc+|+Keep+coding+and+keep+growing!" alt="footer text" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=888888&center=true&vCenter=true&width=520&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+Phuoc+%7C+Keep+coding+and+keep+growing!" alt="footer text" />
 </p>
