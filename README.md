@@ -1,36 +1,86 @@
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240">
-    <defs>
-      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#0D1117"/>
-        <stop offset="50%" style="stop-color:#00BFFF;stop-opacity:0.15"/>
-        <stop offset="100%" style="stop-color:#7B2FBE;stop-opacity:0.4"/>
-      </linearGradient>
-      <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#0D1117"/>
-        <stop offset="50%" style="stop-color:#00BFFF"/>
-        <stop offset="100%" style="stop-color:#7B2FBE"/>
-      </linearGradient>
-    </defs>
-    <!-- Background -->
-    <rect width="860" height="240" fill="url(#bg)" rx="0"/>
-    <!-- Top wave -->
-    <path d="M0,0 C200,60 400,0 600,40 C750,70 820,20 860,0 L860,80 Q700,120 500,90 Q300,60 100,100 Q40,110 0,90 Z" fill="#00BFFF" opacity="0.12"/>
-    <!-- Bottom wave -->
-    <path d="M0,240 C150,180 350,220 550,190 C700,165 800,195 860,210 L860,240 Z" fill="#7B2FBE" opacity="0.25"/>
-    <!-- Decorative dots -->
-    <circle cx="60" cy="50" r="3" fill="#00BFFF" opacity="0.5"/>
-    <circle cx="120" cy="30" r="2" fill="#7B2FBE" opacity="0.6"/>
-    <circle cx="800" cy="60" r="3" fill="#00BFFF" opacity="0.5"/>
-    <circle cx="740" cy="35" r="2" fill="#7B2FBE" opacity="0.6"/>
-    <circle cx="430" cy="20" r="2" fill="#00BFFF" opacity="0.4"/>
-    <!-- Main title -->
-    <text x="430" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle" opacity="0.95">Welcome to my profile</text>
-    <!-- Subtitle -->
-    <text x="430" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#aaaaff" text-anchor="middle" opacity="0.85">Building Robust Backend Systems &amp; APIs</text>
-    <!-- Accent line -->
-    <line x1="310" y1="163" x2="550" y2="163" stroke="url(#wave1)" stroke-width="2" opacity="0.5"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220">
+  <defs>
+    <!-- Deep dark bg -->
+    <linearGradient id="headerBg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <!-- Accent bar gradient: cyan → purple -->
+    <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#00C8FF"/>
+      <stop offset="50%"  stop-color="#7B5FE8"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <!-- Subtle glow under title -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#7B5FE8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7B5FE8" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="220" fill="url(#headerBg)"/>
+  <!-- Dot grid overlay -->
+  <rect width="860" height="220" fill="url(#dots)"/>
+  <!-- Subtle glow behind text -->
+  <ellipse cx="430" cy="108" rx="280" ry="70" fill="url(#glow)"/>
+
+  <!-- Left geometric accent: stacked short lines -->
+  <line x1="44" y1="72"  x2="80" y2="72"  stroke="#00C8FF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="44" y1="80"  x2="64" y2="80"  stroke="#00C8FF" stroke-width="1"   opacity="0.3"/>
+  <line x1="44" y1="88"  x2="72" y2="88"  stroke="#7B5FE8" stroke-width="1"   opacity="0.25"/>
+
+  <!-- Right geometric accent (mirrored) -->
+  <line x1="816" y1="72"  x2="780" y2="72"  stroke="#A855F7" stroke-width="1.5" opacity="0.5"/>
+  <line x1="816" y1="80"  x2="796" y2="80"  stroke="#A855F7" stroke-width="1"   opacity="0.3"/>
+  <line x1="816" y1="88"  x2="788" y2="88"  stroke="#7B5FE8" stroke-width="1"   opacity="0.25"/>
+
+  <!-- Small bracket corners (top-left) -->
+  <path d="M32,48 L32,32 L52,32" fill="none" stroke="#00C8FF" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
+  <!-- Small bracket corners (top-right) -->
+  <path d="M828,48 L828,32 L808,32" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
+  <!-- Small bracket corners (bottom-left) -->
+  <path d="M32,172 L32,188 L52,188" fill="none" stroke="#00C8FF" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+  <!-- Small bracket corners (bottom-right) -->
+  <path d="M828,172 L828,188 L808,188" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- Eyebrow label -->
+  <text x="430" y="70" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#00C8FF" opacity="0.75" letter-spacing="3">FULL-STACK JS / NODE.JS</text>
+
+  <!-- Main title -->
+  <text x="430" y="118" text-anchor="middle" font-family="'Segoe UI', 'Arial', sans-serif" font-size="38" font-weight="700" fill="#F0F6FF" letter-spacing="-0.5">Bùi Lê Huy Phước</text>
+
+  <!-- Accent divider line -->
+  <rect x="300" y="130" width="260" height="2.5" rx="1.5" fill="url(#accentBar)" opacity="0.85"/>
+
+  <!-- Tech stack tags — inline pill badges -->
+  <!-- Node.js -->
+  <rect x="154" y="148" width="72" height="22" rx="11" fill="#1a2e1a" stroke="#3FB950" stroke-width="1"/>
+  <text x="190" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#3FB950" font-weight="600">Node.js</text>
+  <!-- TypeScript -->
+  <rect x="236" y="148" width="86" height="22" rx="11" fill="#162032" stroke="#3178C6" stroke-width="1"/>
+  <text x="279" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#3178C6" font-weight="600">TypeScript</text>
+  <!-- JavaScript -->
+  <rect x="332" y="148" width="86" height="22" rx="11" fill="#1f1a00" stroke="#F7DF1E" stroke-width="1"/>
+  <text x="375" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#F7DF1E" font-weight="600">JavaScript</text>
+  <!-- React -->
+  <rect x="428" y="148" width="60" height="22" rx="11" fill="#0d1f2d" stroke="#61DAFB" stroke-width="1"/>
+  <text x="458" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#61DAFB" font-weight="600">React</text>
+  <!-- Next.js -->
+  <rect x="498" y="148" width="68" height="22" rx="11" fill="#1a1a1a" stroke="#e2e2e2" stroke-width="1"/>
+  <text x="532" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#e2e2e2" font-weight="600">Next.js</text>
+  <!-- REST API -->
+  <rect x="576" y="148" width="72" height="22" rx="11" fill="#1e0d2e" stroke="#A855F7" stroke-width="1"/>
+  <text x="612" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#A855F7" font-weight="600">REST API</text>
+
+  <!-- Tagline -->
+  <text x="430" y="200" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8892a4" letter-spacing="0.3">Building reliable web services &amp; full-stack JS applications</text>
+</svg>
 </p>
 
 <p align="center">
@@ -39,7 +89,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;Backend+Developer+%E2%9A%99%EF%B8%8F;Python+%7C+Java+%7C+REST+API+%F0%9F%90%8D;Building+Scalable+Backend+Systems+%F0%9F%92%BB;Welcome+to+my+GitHub+profile+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00C8FF&center=true&vCenter=true&width=750&height=70&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;Backend+Developer+%E2%9A%99%EF%B8%8F;Node.js+%7C+TypeScript+%7C+REST+API;React+%26+Next.js+%F0%9F%92%BB;Welcome+to+my+GitHub!+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 ### 📸 Gallery
@@ -57,12 +107,6 @@
     </td>
   </tr>
 </table>
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=23521228-BuiLeHuyPhuoc&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" />
-</p>
 
 ### 📊 GitHub Stats
 
@@ -110,20 +154,37 @@
 </p>
 
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="860" height="130" viewBox="0 0 860 130">
-    <defs>
-      <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#7B2FBE"/>
-        <stop offset="100%" style="stop-color:#00BFFF"/>
-      </linearGradient>
-    </defs>
-    <rect width="860" height="130" fill="#0D1117"/>
-    <path d="M0,40 C200,0 400,60 600,20 C750,0 820,30 860,20 L860,130 L0,130 Z" fill="url(#footerBg)" opacity="0.3"/>
-    <path d="M0,70 C150,40 350,80 550,50 C700,25 800,55 860,45 L860,130 L0,130 Z" fill="url(#footerBg)" opacity="0.2"/>
-    <text x="430" y="88" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle" opacity="0.9">Thanks for visiting!</text>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 100" width="860" height="100">
+  <defs>
+    <linearGradient id="footerAccent" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#00C8FF"/>
+      <stop offset="50%"  stop-color="#7B5FE8"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="860" height="100" fill="#0D1117"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="860" height="2" fill="url(#footerAccent)" opacity="0.7"/>
+
+  <!-- Bracket corners top-left -->
+  <path d="M20,16 L20,8 L32,8" fill="none" stroke="#00C8FF" stroke-width="1.2" opacity="0.4" stroke-linecap="round"/>
+  <!-- Bracket corners top-right -->
+  <path d="M840,16 L840,8 L828,8" fill="none" stroke="#A855F7" stroke-width="1.2" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Main text -->
+  <text x="430" y="52" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#F0F6FF" opacity="0.9">Thanks for visiting!</text>
+
+  <!-- Subtext in monospace -->
+  <text x="430" y="74" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#8892a4" letter-spacing="1">// keep coding &amp; keep growing</text>
+
+  <!-- Bottom accent line (lighter) -->
+  <rect x="340" y="88" width="180" height="1.5" rx="1" fill="url(#footerAccent)" opacity="0.4"/>
+</svg>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=888888&center=true&vCenter=true&width=520&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+Phuoc+%7C+Keep+coding+and+keep+growing!" alt="footer text" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=555555&center=true&vCenter=true&width=520&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+Phuoc+%7C+Keep+coding+and+keep+growing!" alt="footer text" />
 </p>
