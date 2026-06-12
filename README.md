@@ -1,13 +1,14 @@
+```md
 ## Hi there 👋
 
 <!-- Banner với gradient và hiệu ứng -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20my%20profile&fontSize=40&animation=fadeIn" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Welcome%20to%20my%20profile&fontSize=42&fontAlignY=35&animation=fadeIn" alt="header" />
 </p>
 
 <!-- Typing animation giới thiệu -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&height=60&lines=Xin+chào%2C+mình+là+Phước;Sinh+viên+yêu+thích+coding+và+mạng;Chào+mừng+đến+với+GitHub+của+mình!" alt="typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&height=70&lines=Xin+chao%2C+minh+la+Phuoc;I+am+learning+coding+and+networking;Welcome+to+my+GitHub+profile" alt="Typing SVG" />
 </p>
 
 <!-- 3 ảnh ban đầu căn đều -->
@@ -27,16 +28,26 @@
 
 <!-- Thẻ thống kê GitHub -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=23521228-BuiLeHuyPhuoc&show_icons=true&theme=radical&hide_border=true&count_private=true" width="360" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=23521228-BuiLeHuyPhuoc&layout=compact&theme=radical&hide_border=true" width="360" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=23521228-BuiLeHuyPhuoc&show_icons=true&theme=radical&hide_border=true&count_private=true" width="360" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=23521228-BuiLeHuyPhuoc&layout=compact&theme=radical&hide_border=true" width="360" alt="Top Languages" />
 </p>
 
-<!-- Streak và contributions -->
+<!-- Streak -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=23521228-BuiLeHuyPhuoc&theme=radical&hide_border=true" width="720" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=23521228-BuiLeHuyPhuoc&theme=radical&hide_border=true" width="720" alt="GitHub Streak" />
 </p>
 
-<!-- (Tùy chọn) Animation con rắn ăn contributions -->
+<!-- Snake animation -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/snake.svg" alt="Snake animation" width="720" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/github-snake.svg" alt="Snake animation" width="720" />
+  </picture>
 </p>
+
+<!-- Footer wave -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" alt="footer" />
+</p>
+```
