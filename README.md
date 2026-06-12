@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00BFFF,100:7B2FBE&height=240&section=header&text=Welcome%20to%20my%20profile&fontSize=40&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Building%20cool%20things%20with%20code%20%26%20networking&descAlignY=58&descSize=18&descColor=aaaaff" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00BFFF,100:7B2FBE&height=240&section=header&text=Welcome%20to%20my%20profile&fontSize=40&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Building%20Robust%20Backend%20Systems%20%26%20APIs&descAlignY=58&descSize=18&descColor=aaaaff" alt="header" />
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;I+am+learning+coding+%26+networking+%F0%9F%92%BB;Network+Engineer+in+training+%F0%9F%8C%90;Always+learning%2C+always+growing+%F0%9F%9A%80;Welcome+to+my+GitHub+profile+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;Backend+Developer+%E2%9A%99%EF%B8%8F;Building+APIs+%26+Databases+%F0%9F%92%BB;Python%2C+Docker%2C+Linux+%F0%9F%90%8D;Welcome+to+my+GitHub+profile+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 ### 📸 Gallery
@@ -30,7 +30,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=23521228-BuiLeHuyPhuoc&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=23521228-BuiLeHuyPhuoc&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" />
 </p>
 
 ### 📊 GitHub Stats
