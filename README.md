@@ -27,16 +27,16 @@
 
 <!-- Thẻ thống kê GitHub -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=taonekmay09112005&show_icons=true&theme=radical&hide_border=true&count_private=true" width="360" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taonekmay09112005&layout=compact&theme=radical&hide_border=true" width="360" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=23521228-BuiLeHuyPhuoc&show_icons=true&theme=radical&hide_border=true&count_private=true" width="360" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=23521228-BuiLeHuyPhuoc&layout=compact&theme=radical&hide_border=true" width="360" alt="Top Languages"/>
 </p>
 
 <!-- Streak và contributions -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=taonekmay09112005&theme=radical&hide_border=true" width="720" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=23521228-BuiLeHuyPhuoc&theme=radical&hide_border=true" width="720" alt="GitHub Streak"/>
 </p>
 
 <!-- (Tùy chọn) Animation con rắn ăn contributions -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taonekmay09112005/taonekmay09112005/output/snake.svg" alt="Snake animation" width="720" />
+  <img src="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/output/snake.svg" alt="Snake animation" width="720" />
 </p>
