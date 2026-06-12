@@ -11,69 +11,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;I+am+learning+coding+%26+networking+%F0%9F%92%BB;Network+Engineer+in+training+%F0%9F%8C%90;Always+learning%2C+always+growing+%F0%9F%9A%80;Welcome+to+my+GitHub+profile+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
-### 🧑‍💻 About Me
-
-<table align="center" border="0">
-<tr>
-<td width="55%" valign="top">
-  <b>Name:</b> Bui Le Huy Phuoc<br>
-  <b>Student ID:</b> 23521228<br>
-  <b>University:</b> UIT - HCMC<br>
-  <b>Major:</b> Computer Networks & Communications<br>
-  <b>Location:</b> Ho Chi Minh City, Vietnam<br><br>
-  
-  <b>Interests:</b><br>
-  <ul>
-    <li>Networking & Infrastructure</li>
-    <li>Linux & Open Source</li>
-    <li>Automation & Scripting</li>
-    <li>CTF & Cybersecurity</li>
-  </ul>
-  
-  <b>Currently Learning:</b><br>
-  <ul>
-    <li>CCNA / Network Protocols</li>
-    <li>Docker & DevOps basics</li>
-    <li>Python for Networking</li>
-  </ul>
-  
-  <b>Fun Fact:</b> I debug my life like my code 🐛
-</td>
-<td width="45%" valign="top" align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=23521228-BuiLeHuyPhuoc&theme=react-dark&bg_color=0D1117&color=00BFFF&line=7B2FBE&point=FFFFFF&hide_border=true&radius=8" width="100%" alt="Activity Graph"/>
-</td>
-</tr>
-</table>
-
-### 🛠️ Tech Stack & Tools
-
-#### Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-</p>
-
-#### Networking & Infrastructure
-<p align="left">
-  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
-
-#### Tools & IDEs
-<p align="left">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</p>
-
 ### 📸 Gallery
 
 <table align="center">
@@ -144,6 +81,7 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,100:00BFFF&height=130&section=footer&text=Thanks+for+visiting!&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=fadeIn" alt="footer" />
 </p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=888888&center=true&vCenter=true&width=520&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+Phuoc+%7C+Keep+coding+and+keep+growing!" alt="footer text" />
 </p>
