@@ -1,86 +1,5 @@
 <p align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220">
-  <defs>
-    <!-- Deep dark bg -->
-    <linearGradient id="headerBg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
-    <!-- Accent bar gradient: cyan → purple -->
-    <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-      <stop offset="0%"   stop-color="#00C8FF"/>
-      <stop offset="50%"  stop-color="#7B5FE8"/>
-      <stop offset="100%" stop-color="#A855F7"/>
-    </linearGradient>
-    <!-- Subtle glow under title -->
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#7B5FE8" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#7B5FE8" stop-opacity="0"/>
-    </radialGradient>
-    <!-- Dot grid pattern -->
-    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" opacity="0.04"/>
-    </pattern>
-  </defs>
-
-  <!-- Background -->
-  <rect width="860" height="220" fill="url(#headerBg)"/>
-  <!-- Dot grid overlay -->
-  <rect width="860" height="220" fill="url(#dots)"/>
-  <!-- Subtle glow behind text -->
-  <ellipse cx="430" cy="108" rx="280" ry="70" fill="url(#glow)"/>
-
-  <!-- Left geometric accent: stacked short lines -->
-  <line x1="44" y1="72"  x2="80" y2="72"  stroke="#00C8FF" stroke-width="1.5" opacity="0.5"/>
-  <line x1="44" y1="80"  x2="64" y2="80"  stroke="#00C8FF" stroke-width="1"   opacity="0.3"/>
-  <line x1="44" y1="88"  x2="72" y2="88"  stroke="#7B5FE8" stroke-width="1"   opacity="0.25"/>
-
-  <!-- Right geometric accent (mirrored) -->
-  <line x1="816" y1="72"  x2="780" y2="72"  stroke="#A855F7" stroke-width="1.5" opacity="0.5"/>
-  <line x1="816" y1="80"  x2="796" y2="80"  stroke="#A855F7" stroke-width="1"   opacity="0.3"/>
-  <line x1="816" y1="88"  x2="788" y2="88"  stroke="#7B5FE8" stroke-width="1"   opacity="0.25"/>
-
-  <!-- Small bracket corners (top-left) -->
-  <path d="M32,48 L32,32 L52,32" fill="none" stroke="#00C8FF" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
-  <!-- Small bracket corners (top-right) -->
-  <path d="M828,48 L828,32 L808,32" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
-  <!-- Small bracket corners (bottom-left) -->
-  <path d="M32,172 L32,188 L52,188" fill="none" stroke="#00C8FF" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
-  <!-- Small bracket corners (bottom-right) -->
-  <path d="M828,172 L828,188 L808,188" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
-
-  <!-- Eyebrow label -->
-  <text x="430" y="70" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#00C8FF" opacity="0.75" letter-spacing="3">FULL-STACK JS / NODE.JS</text>
-
-  <!-- Main title -->
-  <text x="430" y="118" text-anchor="middle" font-family="'Segoe UI', 'Arial', sans-serif" font-size="38" font-weight="700" fill="#F0F6FF" letter-spacing="-0.5">Bùi Lê Huy Phước</text>
-
-  <!-- Accent divider line -->
-  <rect x="300" y="130" width="260" height="2.5" rx="1.5" fill="url(#accentBar)" opacity="0.85"/>
-
-  <!-- Tech stack tags — inline pill badges -->
-  <!-- Node.js -->
-  <rect x="154" y="148" width="72" height="22" rx="11" fill="#1a2e1a" stroke="#3FB950" stroke-width="1"/>
-  <text x="190" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#3FB950" font-weight="600">Node.js</text>
-  <!-- TypeScript -->
-  <rect x="236" y="148" width="86" height="22" rx="11" fill="#162032" stroke="#3178C6" stroke-width="1"/>
-  <text x="279" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#3178C6" font-weight="600">TypeScript</text>
-  <!-- JavaScript -->
-  <rect x="332" y="148" width="86" height="22" rx="11" fill="#1f1a00" stroke="#F7DF1E" stroke-width="1"/>
-  <text x="375" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#F7DF1E" font-weight="600">JavaScript</text>
-  <!-- React -->
-  <rect x="428" y="148" width="60" height="22" rx="11" fill="#0d1f2d" stroke="#61DAFB" stroke-width="1"/>
-  <text x="458" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#61DAFB" font-weight="600">React</text>
-  <!-- Next.js -->
-  <rect x="498" y="148" width="68" height="22" rx="11" fill="#1a1a1a" stroke="#e2e2e2" stroke-width="1"/>
-  <text x="532" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#e2e2e2" font-weight="600">Next.js</text>
-  <!-- REST API -->
-  <rect x="576" y="148" width="72" height="22" rx="11" fill="#1e0d2e" stroke="#A855F7" stroke-width="1"/>
-  <text x="612" y="163" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#A855F7" font-weight="600">REST API</text>
-
-  <!-- Tagline -->
-  <text x="430" y="200" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8892a4" letter-spacing="0.3">Building reliable web services &amp; full-stack JS applications</text>
-</svg>
+  <img src="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/main/header.svg" alt="header" width="860"/>
 </p>
 
 <p align="center">
@@ -154,35 +73,7 @@
 </p>
 
 <p align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 100" width="860" height="100">
-  <defs>
-    <linearGradient id="footerAccent" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-      <stop offset="0%"   stop-color="#00C8FF"/>
-      <stop offset="50%"  stop-color="#7B5FE8"/>
-      <stop offset="100%" stop-color="#A855F7"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Dark background -->
-  <rect width="860" height="100" fill="#0D1117"/>
-
-  <!-- Top accent line -->
-  <rect x="0" y="0" width="860" height="2" fill="url(#footerAccent)" opacity="0.7"/>
-
-  <!-- Bracket corners top-left -->
-  <path d="M20,16 L20,8 L32,8" fill="none" stroke="#00C8FF" stroke-width="1.2" opacity="0.4" stroke-linecap="round"/>
-  <!-- Bracket corners top-right -->
-  <path d="M840,16 L840,8 L828,8" fill="none" stroke="#A855F7" stroke-width="1.2" opacity="0.4" stroke-linecap="round"/>
-
-  <!-- Main text -->
-  <text x="430" y="52" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#F0F6FF" opacity="0.9">Thanks for visiting!</text>
-
-  <!-- Subtext in monospace -->
-  <text x="430" y="74" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#8892a4" letter-spacing="1">// keep coding &amp; keep growing</text>
-
-  <!-- Bottom accent line (lighter) -->
-  <rect x="340" y="88" width="180" height="1.5" rx="1" fill="url(#footerAccent)" opacity="0.4"/>
-</svg>
+  <img src="https://raw.githubusercontent.com/23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc/main/footer.svg" alt="footer" width="860"/>
 </p>
 
 <p align="center">
