@@ -1,5 +1,36 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00BFFF,100:7B2FBE&height=240&section=header&text=Welcome%20to%20my%20profile&fontSize=40&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Building%20Robust%20Backend%20Systems%20%26%20APIs&descAlignY=58&descSize=18&descColor=aaaaff" alt="header" />
+  <svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#0D1117"/>
+        <stop offset="50%" style="stop-color:#00BFFF;stop-opacity:0.15"/>
+        <stop offset="100%" style="stop-color:#7B2FBE;stop-opacity:0.4"/>
+      </linearGradient>
+      <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#0D1117"/>
+        <stop offset="50%" style="stop-color:#00BFFF"/>
+        <stop offset="100%" style="stop-color:#7B2FBE"/>
+      </linearGradient>
+    </defs>
+    <!-- Background -->
+    <rect width="860" height="240" fill="url(#bg)" rx="0"/>
+    <!-- Top wave -->
+    <path d="M0,0 C200,60 400,0 600,40 C750,70 820,20 860,0 L860,80 Q700,120 500,90 Q300,60 100,100 Q40,110 0,90 Z" fill="#00BFFF" opacity="0.12"/>
+    <!-- Bottom wave -->
+    <path d="M0,240 C150,180 350,220 550,190 C700,165 800,195 860,210 L860,240 Z" fill="#7B2FBE" opacity="0.25"/>
+    <!-- Decorative dots -->
+    <circle cx="60" cy="50" r="3" fill="#00BFFF" opacity="0.5"/>
+    <circle cx="120" cy="30" r="2" fill="#7B2FBE" opacity="0.6"/>
+    <circle cx="800" cy="60" r="3" fill="#00BFFF" opacity="0.5"/>
+    <circle cx="740" cy="35" r="2" fill="#7B2FBE" opacity="0.6"/>
+    <circle cx="430" cy="20" r="2" fill="#00BFFF" opacity="0.4"/>
+    <!-- Main title -->
+    <text x="430" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle" opacity="0.95">Welcome to my profile</text>
+    <!-- Subtitle -->
+    <text x="430" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#aaaaff" text-anchor="middle" opacity="0.85">Building Robust Backend Systems &amp; APIs</text>
+    <!-- Accent line -->
+    <line x1="310" y1="163" x2="550" y2="163" stroke="url(#wave1)" stroke-width="2" opacity="0.5"/>
+  </svg>
 </p>
 
 <p align="center">
@@ -8,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;Backend+Developer+%E2%9A%99%EF%B8%8F;Building+APIs+%26+Databases+%F0%9F%92%BB;Python%2C+Docker%2C+Linux+%F0%9F%90%8D;Welcome+to+my+GitHub+profile+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&height=75&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;Backend+Developer+%E2%9A%99%EF%B8%8F;Python+%7C+Java+%7C+REST+API+%F0%9F%90%8D;Building+Scalable+Backend+Systems+%F0%9F%92%BB;Welcome+to+my+GitHub+profile+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 ### 📸 Gallery
@@ -79,7 +110,18 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,100:00BFFF&height=130&section=footer&text=Thanks+for+visiting!&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=fadeIn" alt="footer" />
+  <svg xmlns="http://www.w3.org/2000/svg" width="860" height="130" viewBox="0 0 860 130">
+    <defs>
+      <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#7B2FBE"/>
+        <stop offset="100%" style="stop-color:#00BFFF"/>
+      </linearGradient>
+    </defs>
+    <rect width="860" height="130" fill="#0D1117"/>
+    <path d="M0,40 C200,0 400,60 600,20 C750,0 820,30 860,20 L860,130 L0,130 Z" fill="url(#footerBg)" opacity="0.3"/>
+    <path d="M0,70 C150,40 350,80 550,50 C700,25 800,55 860,45 L860,130 L0,130 Z" fill="url(#footerBg)" opacity="0.2"/>
+    <text x="430" y="88" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle" opacity="0.9">Thanks for visiting!</text>
+  </svg>
 </p>
 
 <p align="center">
