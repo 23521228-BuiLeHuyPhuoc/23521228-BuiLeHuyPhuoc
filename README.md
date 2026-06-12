@@ -1,5 +1,5 @@
 ## Hi there 👋
-![Uploading 212745723-c7c386dc-108c-4a50-9c76-0f90afb2c0fa.gif…]()
+<img width="266" height="200" alt="212745723-c7c386dc-108c-4a50-9c76-0f90afb2c0fa" src="https://github.com/user-attachments/assets/1dfcd99e-afe7-46db-873e-e9eaeb59fb02" />
 
 <!--
 **23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
