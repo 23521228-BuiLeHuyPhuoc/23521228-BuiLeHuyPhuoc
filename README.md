@@ -1,6 +1,16 @@
-
 ## Hi there 👋
 
+<!-- Banner với gradient và hiệu ứng -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20my%20profile&fontSize=40&animation=fadeIn" alt="header"/>
+</p>
+
+<!-- Typing animation giới thiệu -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&height=60&lines=Xin+chào%2C+mình+là+Phước;Sinh+viên+yêu+thích+coding+và+mạng;Chào+mừng+đến+với+GitHub+của+mình!" alt="typing animation"/>
+</p>
+
+<!-- 3 ảnh ban đầu căn đều -->
 <table>
   <tr>
     <td width="33%" align="center">
@@ -15,21 +25,18 @@
   </tr>
 </table>
 
+<!-- Thẻ thống kê GitHub -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=taonekmay09112005&show_icons=true&theme=radical&hide_border=true&count_private=true" width="360" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taonekmay09112005&layout=compact&theme=radical&hide_border=true" width="360" alt="Top Languages"/>
+</p>
 
+<!-- Streak và contributions -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=taonekmay09112005&theme=radical&hide_border=true" width="720" alt="GitHub Streak"/>
+</p>
 
-
-
-<!--
-**23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- (Tùy chọn) Animation con rắn ăn contributions -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taonekmay09112005/taonekmay09112005/output/snake.svg" alt="Snake animation" width="720" />
+</p>
