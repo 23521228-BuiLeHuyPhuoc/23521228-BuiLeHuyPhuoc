@@ -1,5 +1,6 @@
 ## Hi there 👋
-<img width="266" height="200" alt="212745723-c7c386dc-108c-4a50-9c76-0f90afb2c0fa" src="https://github.com/user-attachments/assets/1dfcd99e-afe7-46db-873e-e9eaeb59fb02" />
+<img width="266" height="200" alt="212745723-c7c386dc-108c-4a50-9c76-0f90afb2c0fa" src="https://github.com/user-attachments/assets/1dfcd99e-afe7-46db-873e-e9eaeb59fb02" /> <img width="300" height="300" alt="212284145-bf2c01a8-c448-4f1a-b911-996024c84606" src="https://github.com/user-attachments/assets/8b2c4798-9dd7-47e4-8eb4-b7f0e4705ec4" />
+
 
 <!--
 **23521228-BuiLeHuyPhuoc/23521228-BuiLeHuyPhuoc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
