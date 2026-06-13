@@ -7,10 +7,6 @@
   <img src="https://img.shields.io/github/followers/23521228-BuiLeHuyPhuoc?label=Followers&style=for-the-badge&color=blue&labelColor=0D1117" alt="Followers" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00C8FF&center=true&vCenter=true&width=750&height=70&lines=Xin+chao%2C+minh+la+Phuoc+%F0%9F%91%8B;Intern+Backend+Developer+%E2%9A%99%EF%B8%8F;Node.js+%7C+TypeScript+%7C+REST+API;React+%26+Next.js+%F0%9F%92%BB;Welcome+to+my+GitHub!+%E2%9C%A8" alt="Typing SVG" />
-</p>
-
 ### 📸 Gallery
 
 <table align="center">
